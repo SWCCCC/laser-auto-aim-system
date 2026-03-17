@@ -1,0 +1,38 @@
+	5路灰度传感器 左---->右
+        5V--->VCC
+        GND--->GND
+	PA31-->L2
+        PA28-->L1
+        PA1-->M0
+        PA0-->R1
+        PA25-->R2
+
+	电机控制MPWM
+        PWMA--单片机3.3V
+        PWMB--单片机3.3V
+        PA3--->	AIN1
+        PB14-->  AIN2
+        PA7--->   BIN1
+	PA4--->   BIN2
+       STBY--->5V
+
+	编码器测速ENC
+        PB5-->左编码器A相 E1A	B相不接
+        PB4-->右编码器A相 E2A	B相不接 
+        PB6-->GND
+        PB7-->GND
+
+       OLED屏幕
+       VCC--->5V/3.3V
+       GND--->GND
+       SCL---->A17
+       SDA--->B15
+
+      按键
+      BSL----->A18(高电平有效)
+      K1--->B21
+      K2---->B23
+      K3---->B24
+
+
+     
